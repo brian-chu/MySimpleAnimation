@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		002F9FB91B78402800988F03 /* DrawImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 002F9FB81B78402800988F03 /* DrawImageView.m */; };
+		002F9FBC1B7869B300988F03 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002F9FBB1B7869B300988F03 /* LoginViewController.m */; };
 		00596FC01B74499800487851 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00596FBF1B74499800487851 /* main.m */; };
 		00596FC31B74499800487851 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00596FC21B74499800487851 /* AppDelegate.m */; };
 		00596FC61B74499800487851 /* MySimpleAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00596FC41B74499800487851 /* MySimpleAnimation.xcdatamodeld */; };
@@ -15,6 +17,11 @@
 		00596FCE1B74499800487851 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00596FCD1B74499800487851 /* Images.xcassets */; };
 		00596FD11B74499800487851 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00596FCF1B74499800487851 /* LaunchScreen.xib */; };
 		00596FDD1B74499800487851 /* MySimpleAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00596FDC1B74499800487851 /* MySimpleAnimationTests.m */; };
+		00596FE81B744A3E00487851 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00596FE71B744A3E00487851 /* FirstViewController.m */; };
+		00596FEB1B744A5A00487851 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00596FEA1B744A5A00487851 /* MainTableViewController.m */; };
+		00596FEE1B744BE000487851 /* DefineAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00596FED1B744BE000487851 /* DefineAnimation.m */; };
+		00596FF11B7485A700487851 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00596FF01B7485A700487851 /* SecondViewController.m */; };
+		00596FF41B74B6B200487851 /* DrawLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 00596FF31B74B6B200487851 /* DrawLine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		002F9FB71B78402800988F03 /* DrawImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawImageView.h; sourceTree = "<group>"; };
+		002F9FB81B78402800988F03 /* DrawImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawImageView.m; sourceTree = "<group>"; };
+		002F9FBA1B7869B300988F03 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		002F9FBB1B7869B300988F03 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		00596FBA1B74499800487851 /* MySimpleAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySimpleAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00596FBE1B74499800487851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00596FBF1B74499800487851 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +53,16 @@
 		00596FD61B74499800487851 /* MySimpleAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySimpleAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00596FDB1B74499800487851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00596FDC1B74499800487851 /* MySimpleAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySimpleAnimationTests.m; sourceTree = "<group>"; };
+		00596FE61B744A3E00487851 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		00596FE71B744A3E00487851 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		00596FE91B744A5A00487851 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		00596FEA1B744A5A00487851 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		00596FEC1B744BE000487851 /* DefineAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineAnimation.h; sourceTree = "<group>"; };
+		00596FED1B744BE000487851 /* DefineAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefineAnimation.m; sourceTree = "<group>"; };
+		00596FEF1B7485A700487851 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		00596FF01B7485A700487851 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		00596FF21B74B6B200487851 /* DrawLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLine.h; sourceTree = "<group>"; };
+		00596FF31B74B6B200487851 /* DrawLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +109,20 @@
 				00596FC71B74499800487851 /* ViewController.h */,
 				00596FC81B74499800487851 /* ViewController.m */,
 				00596FCA1B74499800487851 /* Main.storyboard */,
+				002F9FBA1B7869B300988F03 /* LoginViewController.h */,
+				002F9FBB1B7869B300988F03 /* LoginViewController.m */,
+				00596FEF1B7485A700487851 /* SecondViewController.h */,
+				00596FF01B7485A700487851 /* SecondViewController.m */,
+				00596FE61B744A3E00487851 /* FirstViewController.h */,
+				00596FE71B744A3E00487851 /* FirstViewController.m */,
+				00596FE91B744A5A00487851 /* MainTableViewController.h */,
+				00596FEA1B744A5A00487851 /* MainTableViewController.m */,
+				00596FEC1B744BE000487851 /* DefineAnimation.h */,
+				00596FED1B744BE000487851 /* DefineAnimation.m */,
+				00596FF21B74B6B200487851 /* DrawLine.h */,
+				00596FF31B74B6B200487851 /* DrawLine.m */,
+				002F9FB71B78402800988F03 /* DrawImageView.h */,
+				002F9FB81B78402800988F03 /* DrawImageView.m */,
 				00596FCD1B74499800487851 /* Images.xcassets */,
 				00596FCF1B74499800487851 /* LaunchScreen.xib */,
 				00596FC41B74499800487851 /* MySimpleAnimation.xcdatamodeld */,
@@ -223,8 +258,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				00596FC31B74499800487851 /* AppDelegate.m in Sources */,
+				00596FF41B74B6B200487851 /* DrawLine.m in Sources */,
 				00596FC01B74499800487851 /* main.m in Sources */,
+				00596FEE1B744BE000487851 /* DefineAnimation.m in Sources */,
+				002F9FB91B78402800988F03 /* DrawImageView.m in Sources */,
+				00596FEB1B744A5A00487851 /* MainTableViewController.m in Sources */,
+				00596FF11B7485A700487851 /* SecondViewController.m in Sources */,
+				00596FE81B744A3E00487851 /* FirstViewController.m in Sources */,
 				00596FC91B74499800487851 /* ViewController.m in Sources */,
+				002F9FBC1B7869B300988F03 /* LoginViewController.m in Sources */,
 				00596FC61B74499800487851 /* MySimpleAnimation.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,9 +393,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiangyang li (DRQX5JH3WJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: xiangyang li (DRQX5JH3WJ)";
 				INFOPLIST_FILE = MySimpleAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3c1c42fd-81bc-42d9-99cf-0b2b8bae036f";
 			};
 			name = Debug;
 		};
@@ -361,9 +406,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiangyang li (DRQX5JH3WJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: xiangyang li (DRQX5JH3WJ)";
 				INFOPLIST_FILE = MySimpleAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3c1c42fd-81bc-42d9-99cf-0b2b8bae036f";
 			};
 			name = Release;
 		};
@@ -420,6 +468,7 @@
 				00596FE21B74499800487851 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00596FE31B74499800487851 /* Build configuration list for PBXNativeTarget "MySimpleAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +477,7 @@
 				00596FE51B74499800487851 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
